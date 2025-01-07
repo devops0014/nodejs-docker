@@ -8,4 +8,4 @@ CMD npm start
 FROM base AS final
 RUN npm install --production
 COPY . .
-CMD npm start
+CMD npm index.js
